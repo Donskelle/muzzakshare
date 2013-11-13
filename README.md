@@ -9,6 +9,7 @@ Was kann muzzakshare?
 -----------
 Du kannst bei muzzakshare playlisten mit titeln aus den verfügbaren Musicsharing Seiten erstellen und abspielen.
 Du kannst eigene Musik hochladen.
+
 SOCIAL SOCIAL SOCIAL SOCIAL
 Du kannst gleichzeitig mit Freunden Musik hören. Ihr fügt abwechselnd einen Titel zur Playlist. 
-Es können Veranstaltungen erstellt werden mit einem Admin, welcher eine Playlist vorbereitet und Regeln festsetzt. Der Admin hat die Möglichkeit Abstimmungen zu starten (Wer bestimmt den nächsten Track?, Was wird der nächste Track, Trackrecht für 5 Tracks)
+Es können Veranstaltungen erstellt werden mit einem Admin, welcher eine Playlist vorbereitet und Regeln festsetzt. Der Admin hat die Möglichkeit Abstimmungen zu starten (Wer bestimmt den nächsten Track?, Was wird der nächste Track, Trackrecht Abstimmungen für 5 Tracks)
