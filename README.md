@@ -4,7 +4,9 @@ muzzakshare
 Was ist muzzakshare?
 muzzakshare ist eine Suchseite für Musik. Muzzakshare vergleicht samtliche Musiksharing Seiten auf den SuchString und bietet dannach ein optimiertes Suchergebniss aus allen Seiten.
 
+
 Was kann muzzakshare?
+-----------
 Du kannst bei muzzakshare playlisten mit titeln aus den verfügbaren Musicsharing Seiten erstellen und abspielen.
 Du kannst eigene Musik hochladen.
 SOCIAL SOCIAL SOCIAL SOCIAL
