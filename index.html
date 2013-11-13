@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Muzzak Share</title>
+	<!--- CSS REST --->
+	<link rel="stylesheet" href="_css/style.css">
+	<link rel="stylesheet" href="_css/css_reset.css">
+</head>
+<body>
+	<h1>Muzzak Share Test</h1>
+	<h3>Konsole öffnen -> f12</h3>
+	<form>
+		<input type="text" id="search" name="search" placeholder="Suche"/>
+		<input type="submit"/>
+	</form>
+	
+    <div class="current_musik">
+		<div class="fromUser"></div>
+		<div class="song"></div>
+		<div class="url"></div>
+    </div>
+	
+		<div class="controls"> 
+		<a href="javascript: stopVideo();">stop</a>
+		<a href="javascript: startVideo();">start</a>
+		<a href="javascript: nextTrack();">next Track</a>
+		<a href="javascript: lastTrack();">last Track</a>
+	</div>
+	<div id="player"></div>
+	<div id="search-container"></div>
+	<div id="playlist"></div>
+	
+	
+	<script src="lib/plugins/jquery.js"></script>
+	<script src="http://connect.soundcloud.com/sdk.js"></script>
+	<script type="text/javascript" src="lib/plugins/purl.js"></script>
+	<script type="text/javascript" src="lib/_js/playlist.jquery.js"></script>
+	<script type="text/javascript" src="lib/_js/player.jquery.js"></script>
+	<script type="text/javascript" src="lib/_js/script.js"></script>
+	<script type="text/javascript" src="lib/_js/search.jquery.js"></script>
+	<script type="text/javascript" src="lib/_js/help.functions.js"></script>
+</body>
+</html>
