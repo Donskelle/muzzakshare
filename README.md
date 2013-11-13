@@ -1,3 +1,8 @@
+git Regeln
+-----------
+Commited in seinen eigenen branch. Änderungen werden per Pull Request durch geführt
+
+
 muzzakshare
 ===========
 
@@ -23,6 +28,9 @@ Es können Veranstaltungen erstellt werden mit einem Admin, welcher eine Playlis
 Der Admin hat die Möglichkeit Abstimmungen zu starten (Wer bestimmt den nächsten Track?, Was wird der nächste Track, Trackrecht Abstimmungen für 5 Tracks)
 
 Diese werden per App von Teilnehmern beantwortet.
+
+
+
 
 
 Wann join?
