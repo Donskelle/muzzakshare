@@ -30,6 +30,9 @@ Der Admin hat die Möglichkeit Abstimmungen zu starten (Wer bestimmt den nächst
 Diese werden per App von Teilnehmern beantwortet.
 
 
+Demo
+-----------
+http://178.254.6.35/muzzakshare/v0_1/
 
 
 
