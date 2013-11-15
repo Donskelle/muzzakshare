@@ -4,16 +4,13 @@
 	<meta charset="utf-8">
 	<title>Muzzak Share</title>
 	<!--- CSS REST --->
-	<style>
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-	</style>
-	<link rel="stylesheet" href="_css/style.css">
+	<link rel="stylesheet" href="http://178.254.6.35/muzzakshare/serverTest/_css/style.css">
+	<link rel="stylesheet" href="http://178.254.6.35/muzzakshare/serverTest/_css/css_reset.css">
 </head>
 <body>
 	<h1>Muzzak Share Test</h1>
 	<h3>Konsole öffnen -> f12</h3>
-	<form>
+	<form id="form1">
 		<input type="text" id="search" name="search" placeholder="Suche"/>
 		<input type="submit"/>
 	</form>
@@ -24,7 +21,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 		<div class="url"></div>
     </div>
 	
-		<div class="controls"> 
+	
+	<div class="controls"> 
 		<a href="javascript: stopVideo();">stop</a>
 		<a href="javascript: startVideo();">start</a>
 		<a href="javascript: nextTrack();">next Track</a>
@@ -33,15 +31,36 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	<div id="player"></div>
 	<div id="search-container"></div>
 	<div id="playlist"></div>
+	<div id="messagebox"></div>
+	
+	<form id="form2">
+		<input type="text"></input>
+		<input type="submit"></input>
+	</form>
+	
+	<audio id="leave" preload>
+	  <source src="http://178.254.6.35/muzzakshare/serverTest/sounds/button-10.wav" type="audio/wav">
+	  <source src="http://178.254.6.35/muzzakshare/serverTest/sounds/button-10.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="join" preload>
+	  <source src="http://178.254.6.35/muzzakshare/serverTest/sounds/button-9.wav" type="audio/wav">
+	  <source src="http://178.254.6.35/muzzakshare/serverTest/sounds/button-9.mp3" type="audio/mpeg">
+	</audio>
 	
 	
-	<script src="lib/plugins/jquery.js"></script>
-	<script src="http://connect.soundcloud.com/sdk.js"></script>
-	<script type="text/javascript" src="lib/plugins/purl.js"></script>
-	<script type="text/javascript" src="lib/_js/playlist.jquery.js"></script>
-	<script type="text/javascript" src="lib/_js/player.jquery.js"></script>
-	<script type="text/javascript" src="lib/_js/script.js"></script>
-	<script type="text/javascript" src="lib/_js/search.jquery.js"></script>
-	<script type="text/javascript" src="lib/_js/help.functions.js"></script>
+	
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/plugins/jquery.js"></script>
+	<script type="text/javascript" src="http://connect.soundcloud.com/sdk.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/plugins/purl.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/_js/playlist.jquery.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/_js/player.jquery.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/_js/script.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/_js/search.jquery.js"></script>
+	<script type="text/javascript" src="http://178.254.6.35/muzzakshare/serverTest/lib/_js/help.functions.js"></script>
+	
+	<script>
+	var audioJoin = document.getElementById('join');var audioLeave = document.getElementById('leave');
+	</script>
 </body>
 </html>
