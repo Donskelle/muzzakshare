@@ -1,0 +1,6 @@
+{
+	"name": "socket.io",
+	"dependencies" : {
+		"socket.io": ">=0"
+	}
+}
