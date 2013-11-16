@@ -28,11 +28,16 @@ io.sockets.on('connection', function (socket) {
 	socket.emit('playlistnew', playlist.tracks);
   });
   
+  socket.on('changeVolume', function(data) {
+  	socket.broadcast.emit('changeVolume', data);
+  });
+  
   socket.on('disconnect', function () {
-		socket.broadcast.emit('user', {user:"leave"});
+	socket.broadcast.emit('user', {user:"leave"});
   });
   
   socket.on('addTrack', function (data) {
+	console.log(data);
 	playlist.addTrack(data);
 	socket.broadcast.emit('addTrack', data);
   });
