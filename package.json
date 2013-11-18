@@ -1,6 +1,7 @@
 {
 	"name": "socket.io",
 	"dependencies" : {
+		"mongodb": ">=0",
 		"socket.io": ">=0"
 	}
 }
